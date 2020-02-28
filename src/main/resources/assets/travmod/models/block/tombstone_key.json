@@ -1,0 +1,4 @@
+{
+  "loader": "forge:obj",
+  "model": "travmod:models/item/tombstone_key.obj"
+}

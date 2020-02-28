@@ -1,10 +1,9 @@
 package com.tvdp.travelmod;
 
-import com.tvdp.travelmod.item.ModItems;
 import com.tvdp.travelmod.proxy.ClientProxy;
 import com.tvdp.travelmod.proxy.IProxy;
 import com.tvdp.travelmod.proxy.ServerProxy;
-import net.minecraftforge.common.MinecraftForge;
+import com.tvdp.travelmod.util.RegistryEvents;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -21,6 +20,6 @@ public class TravelMod
     public TravelMod()
     {
         LOGGER.info("Travelmod init");
-        FMLJavaModLoadingContext.get().getModEventBus().register(ModItems.class);
+        FMLJavaModLoadingContext.get().getModEventBus().register(RegistryEvents.class);
     }
 }

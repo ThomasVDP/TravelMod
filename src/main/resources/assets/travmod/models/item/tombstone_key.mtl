@@ -1,0 +1,8 @@
+# Blender MTL File: 'tombstone_key.blend'
+# Material Count: 1
+
+newmtl Material.001
+Ka 0.122727 0.122727 0.122727
+Kd 0.800000 0.800000 0.800000
+d 1.000000
+map_Kd travmod:items/tombstone_key

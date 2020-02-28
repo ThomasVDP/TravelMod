@@ -13,11 +13,4 @@ public class ModItems
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
     public static final TombstoneKeyItem TOMBSTONE_KEY_ITEM = new TombstoneKeyItem(new Item.Properties().group(ItemGroup.COMBAT));
-
-    @SubscribeEvent
-    @SuppressWarnings("unused")
-    public static void onItemRegister(RegistryEvent.Register<Item> event)
-    {
-        event.getRegistry().registerAll(ITEMS.toArray(new Item[0]));
-    }
 }
